@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<title></title>
+</head>
+<body>
+
+<header>
+<h3>RECETARIO</h3>
+</header>
+
+<nav>
+<a href="index.html">INICIO</a>
+<br>
+<br>
+<a href="formulario.html">FORMULARIO</a>
+<br>
+<br>
+<a href="recetas.html">MIS RECETAS</a>
+<br>
+<br>
+<a href="desarrolladores.html">DESARROLLADORES</a>
+</nav>
+
+<main>
+<section class="fondo">
+<h2>FORMULARIO</h2>
+<img src="img/formulario.png" height="200" width="400">
+
+<form method="POST">
+	<label for="nombre">Nombre del Platillo</label>
+	<br>
+	<input type="text" id="nombre" name="nombre"><br><br>
+
+	<label for="descripcion">Descripcion</label>
+	<br>
+	<input type="text" id="descripcion" name="descripcion"><br><br>
+
+	<label for="ingredientes">Ingredientes</label>
+	<br>
+	<input type="text" id="ingredientes" name="ingredientes"><br><br>
+
+	<label for="tiempo">Tiempo de Preparacion</label>
+	<br>
+	<input type="number" id="tiempo" name="tiempo" placeholder="Minutos..."><br><br>
+
+	<label for="porciones">Porciones</label>
+	<br>
+	<input type="number" id="porciones" name="porciones" ><br><br>
+
+	<label for="calorias">Calorias</label>
+	<br>
+	<input type="number" id="calorias" name="calorias" placeholder="Calorias..."><br><br>
+
+	<label>
+    <input type="checkbox" id="guarnicion1" name="guarnicion" value="Ensalada">
+    Ensalada
+  	</label><br>
+  	<label>
+    <input type="checkbox" id="guarnicion2" name="guarnicion" value="Arroz">
+    Pan
+  	</label><br>
+  	<label>
+    <input type="checkbox" id="guarnicion3" name="guarnicion" value="Frijoles">
+    Pure
+  	</label><br><br>
+
+	<label for="postre">Selecciona un postre:</label>
+  		<select id="postre" name="postre">
+    		<option value="pastel">Pay</option>
+    		<option value="gelatina">Pastel</option>
+    		<option value="fruta">Nieva</option>
+  		</select><br><br>
+
+  	<input type="submit" name="Guardar"><br><br>
+</form>
+
+
+</section>
+</main>
+
+<footer>
+<p>RECETARIO - TODOS LOS DERECHOS RESERVADOS</p>
+<p>FIMBRES MUNGARAY RENEE</p>
+<p>RUELAS GUTIERREZ NATALIA JOSELINE</p>
+<p>CBTIS 206 - PROGRAMACION 5A</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+	background-size: 100%;
+	background-color:beige;
+}
+ 
+header{
+	background-color: #94937A;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 30px;
+	width: 100%;
+}
+ 
+nav{
+	line-height: 30px;
+	background-color: #364F35;
+	color: white;
+	height: 600px;
+	width: 20%;
+	float: left;
+	padding: 5px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+ 
+nav a:{
+	text-decoration: underline;
+	cursor: pointer;
+}
+ 
+section{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 20px;
+	padding: 0px 150px 0px 150px;
+}
+ 
+footer{
+	background-color: #94937A;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+ 
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+
+}
+ 
+a{
+	text-decoration: none;
+	color: white;
+}
+ 
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+ 
+main .fondo img{
+	max-width: 50%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+ 
+main .fondo img:hover{
+	transform: scale(1.05);
+}
+table {  
+    width: 40%;  
+    border-collapse: collapse;  
+}  
+
+td {  
+    width: 33.33%; /* Para que haya 3 imágenes por fila */  
+    text-align: center;  
+}  
+
+img {  
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho de la celda */  
+    height: auto; /* Mantiene la proporción de la imagen */  
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */  
+    max-height: 200px; /* Ajusta el tamaño máximo de las imágenes */  
+    object-fit: cover; /* Asegura que las imágenes se recorten para llenar el espacio */  
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        width: 40%; /* Nav ocupa todo el ancho en pantallas pequeñas */
+        float: none;
+    }
+
+    section {
+        width: 100%; /* Section ocupa todo el ancho en pantallas pequeñas */
+        float: none;
+    }
+
+    td {
+        width: 100%; /* Cada celda ocupa el 100% del ancho */
+    }
+
+    main .fondo {
+        width: 100%; /* Para asegurar que el contenedor de imágenes sea responsivo */
+    }
+}
